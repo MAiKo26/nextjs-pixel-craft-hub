@@ -44,7 +44,7 @@ function NavBar() {
                   ) : (
                     <Link
                       className={buttonVariants({variant: "ghost"})}
-                      href="/signup"
+                      href="/sign-up"
                     >
                       Create Account
                     </Link>
