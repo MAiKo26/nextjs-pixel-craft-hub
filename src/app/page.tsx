@@ -2,6 +2,7 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import {Button, buttonVariants} from "@/components/ui/button";
 import Link from "next/link";
 import perks from "@/constants/perks";
+import ProductReel from "@/components/ProductReel";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
           </div>
         </div>
         {/* TODO LIST WRAPPER */}
+        <ProductReel title="hello" />
       </MaxWidthWrapper>
       <section className="border-t border-gray-200 bg-gray-50">
         <MaxWidthWrapper className="py-20">
