@@ -190,7 +190,7 @@ export const Products: CollectionConfig = {
           value: "approved",
         },
         {
-          label: "Denied",
+          label: "Rejected",
           value: "denied",
         },
       ],
