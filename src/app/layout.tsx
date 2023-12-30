@@ -4,6 +4,7 @@ import "./globals.scss";
 import {cn} from "@/lib/utils";
 import NavBar from "@/components/NavBar";
 import Providers from "@/components/Providers";
+import {Toaster} from "sonner";
 
 const inter = Inter({subsets: ["latin"]});
 
@@ -24,6 +25,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
             <div className="flex-grow flex-1">{children}</div>
           </Providers>
         </main>
+        <Toaster position="top-center" richColors />
       </body>
     </html>
   );
