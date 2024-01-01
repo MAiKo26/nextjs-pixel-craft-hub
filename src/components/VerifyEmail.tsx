@@ -38,8 +38,8 @@ const VerifyEmail = ({token}: VerifyEmailProps) => {
         <p className="text-muted-foreground text-center mt-1">
           Thank you for verifying your email.
         </p>
-        <Link className={buttonVariants({className: "mt-4"})} href="/sign-in">
-          Sign in
+        <Link className={buttonVariants({className: "mt-4"})} href="/log-in">
+          Log in
         </Link>
       </div>
     );

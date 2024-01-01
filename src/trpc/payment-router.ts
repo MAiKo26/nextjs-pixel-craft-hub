@@ -42,13 +42,13 @@ export const paymentRouter = router({
 
       filteredProducts.forEach((product) => {
         line_items.push({
-          // price: product.priceId!,
+          price: product.priceId!,
           quantity: 1,
         });
       });
 
       line_items.push({
-        price: "price_1OCeBwA19umTXGu8s4p2G3aX",
+        price: "price_1OToMBGHRN31Z3lwSD9k7bsa",
         quantity: 1,
         adjustable_quantity: {
           enabled: false,
