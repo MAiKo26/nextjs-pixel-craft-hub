@@ -19,7 +19,6 @@ const Page = () => {
   const {mutate: createCheckoutSession, isLoading} =
     trpc.payment.createSession.useMutation({
       onSuccess: ({url}) => {
-        console.log(url);
         if (url) router.push(url);
       },
     });
@@ -69,7 +68,7 @@ const Page = () => {
                 </div>
                 <h3 className="font-semibold text-2xl">Your cart is empty</h3>
                 <p className="text-muted-foreground text-center">
-                  Nothing is here yet!
+                  Whoops! Nothing to show here yet.
                 </p>
               </div>
             ) : null}

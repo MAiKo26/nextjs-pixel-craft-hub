@@ -85,7 +85,7 @@ const Page = () => {
               })}
               href="/sign-up"
             >
-              Don't have an account ? Sign-Up
+              Don&apos;t have an account? Sign up
               <ArrowRight className="h-4 w-4" />
             </Link>
           </div>

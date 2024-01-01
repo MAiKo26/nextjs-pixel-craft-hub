@@ -9,6 +9,7 @@ export const paymentRouter = router({
   createSession: privateProcedure
     .input(z.object({productIds: z.array(z.string())}))
     .mutation(async ({ctx, input}) => {
+      console.log("enter");
       const {user} = ctx;
       let {productIds} = input;
 
@@ -27,7 +28,11 @@ export const paymentRouter = router({
         },
       });
 
+      console.log("1");
+
       const filteredProducts = products.filter((prod) => Boolean(prod.priceId));
+
+      console.log("2");
 
       const order = await payload.create({
         collection: "orders",
@@ -38,6 +43,8 @@ export const paymentRouter = router({
         },
       });
 
+      console.log("3");
+
       const line_items: Stripe.Checkout.SessionCreateParams.LineItem[] = [];
 
       filteredProducts.forEach((product) => {
@@ -47,6 +54,8 @@ export const paymentRouter = router({
         });
       });
 
+      console.log("4");
+
       line_items.push({
         price: "price_1OToMBGHRN31Z3lwSD9k7bsa",
         quantity: 1,
@@ -55,7 +64,11 @@ export const paymentRouter = router({
         },
       });
 
+      console.log("5");
+
       try {
+        console.log("6");
+
         const stripeSession = await stripe.checkout.sessions.create({
           success_url: `${process.env.NEXT_PUBLIC_SERVER_URL}/thank-you?orderId=${order.id}`,
           cancel_url: `${process.env.NEXT_PUBLIC_SERVER_URL}/cart`,
@@ -67,9 +80,12 @@ export const paymentRouter = router({
           },
           line_items,
         });
+        console.log("we dont have a problem ");
 
         return {url: stripeSession.url};
       } catch (err) {
+        console.log("we have a problem ");
+        console.log(err);
         return {url: null};
       }
     }),
