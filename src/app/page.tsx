@@ -27,7 +27,12 @@ export default function Home() {
           </div>
         </div>
         {/* TODO LIST WRAPPER */}
-        <ProductReel title="hello" />
+        <ProductReel
+          title="Brand new"
+          href="/products"
+          subtitle=" "
+          query={{sort: "desc", limit: 5}}
+        />
       </MaxWidthWrapper>
       <section className="border-t border-gray-200 bg-gray-50">
         <MaxWidthWrapper className="py-20">

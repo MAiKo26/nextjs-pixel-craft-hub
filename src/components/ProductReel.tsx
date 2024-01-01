@@ -1,17 +1,10 @@
 "use client";
 
-import {TQueryValidator} from "@/lib/validators/query-validator";
 import {Product} from "@/payload-types";
 import {trpc} from "@/trpc/client";
 import Link from "next/link";
 import ProductListing from "./ProductListing";
-
-interface ProductReelProps {
-  title: string;
-  subtitle?: string;
-  href?: string;
-  query: TQueryValidator;
-}
+import ProductReelProps from "@/interfaces/ProductReelProps";
 
 const FALLBACK_LIMIT = 4;
 
