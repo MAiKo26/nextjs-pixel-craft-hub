@@ -41,4 +41,193 @@ export const PRODUCT_CATEGORIES = [
       },
     ],
   },
+  {
+    label: "Icons",
+    value: "icons" as const,
+    featured: [
+      {
+        name: "Favorite Icons picks",
+        href: "#",
+        imageSrc: "/nav/icons/picks.jpg",
+      },
+      {
+        name: "New Arrivals",
+        href: "#",
+        imageSrc: "/nav/icons/new.jpg",
+      },
+      {
+        name: "Best Selling Icons",
+        href: "#",
+        imageSrc: "/nav/icons/bestsellers.jpg",
+      },
+    ],
+  },
+  {
+    label: "Icons",
+    value: "icons" as const,
+    featured: [
+      {
+        name: "Favorite Icons picks",
+        href: "#",
+        imageSrc: "/nav/icons/picks.jpg",
+      },
+      {
+        name: "New Arrivals",
+        href: "#",
+        imageSrc: "/nav/icons/new.jpg",
+      },
+      {
+        name: "Best Selling Icons",
+        href: "#",
+        imageSrc: "/nav/icons/bestsellers.jpg",
+      },
+    ],
+  },
+  {
+    label: "Icons",
+    value: "icons" as const,
+    featured: [
+      {
+        name: "Favorite Icons picks",
+        href: "#",
+        imageSrc: "/nav/icons/picks.jpg",
+      },
+      {
+        name: "New Arrivals",
+        href: "#",
+        imageSrc: "/nav/icons/new.jpg",
+      },
+      {
+        name: "Best Selling Icons",
+        href: "#",
+        imageSrc: "/nav/icons/bestsellers.jpg",
+      },
+    ],
+  },
+  {
+    label: "Icons",
+    value: "icons" as const,
+    featured: [
+      {
+        name: "Favorite Icons picks",
+        href: "#",
+        imageSrc: "/nav/icons/picks.jpg",
+      },
+      {
+        name: "New Arrivals",
+        href: "#",
+        imageSrc: "/nav/icons/new.jpg",
+      },
+      {
+        name: "Best Selling Icons",
+        href: "#",
+        imageSrc: "/nav/icons/bestsellers.jpg",
+      },
+    ],
+  },
+  {
+    label: "Icons",
+    value: "icons" as const,
+    featured: [
+      {
+        name: "Favorite Icons picks",
+        href: "#",
+        imageSrc: "/nav/icons/picks.jpg",
+      },
+      {
+        name: "New Arrivals",
+        href: "#",
+        imageSrc: "/nav/icons/new.jpg",
+      },
+      {
+        name: "Best Selling Icons",
+        href: "#",
+        imageSrc: "/nav/icons/bestsellers.jpg",
+      },
+    ],
+  },
+  {
+    label: "Icons",
+    value: "icons" as const,
+    featured: [
+      {
+        name: "Favorite Icons picks",
+        href: "#",
+        imageSrc: "/nav/icons/picks.jpg",
+      },
+      {
+        name: "New Arrivals",
+        href: "#",
+        imageSrc: "/nav/icons/new.jpg",
+      },
+      {
+        name: "Best Selling Icons",
+        href: "#",
+        imageSrc: "/nav/icons/bestsellers.jpg",
+      },
+    ],
+  },
+  {
+    label: "Icons",
+    value: "icons" as const,
+    featured: [
+      {
+        name: "Favorite Icons picks",
+        href: "#",
+        imageSrc: "/nav/icons/picks.jpg",
+      },
+      {
+        name: "New Arrivals",
+        href: "#",
+        imageSrc: "/nav/icons/new.jpg",
+      },
+      {
+        name: "Best Selling Icons",
+        href: "#",
+        imageSrc: "/nav/icons/bestsellers.jpg",
+      },
+    ],
+  },
+  {
+    label: "Icons",
+    value: "icons" as const,
+    featured: [
+      {
+        name: "Favorite Icons picks",
+        href: "#",
+        imageSrc: "/nav/icons/picks.jpg",
+      },
+      {
+        name: "New Arrivals",
+        href: "#",
+        imageSrc: "/nav/icons/new.jpg",
+      },
+      {
+        name: "Best Selling Icons",
+        href: "#",
+        imageSrc: "/nav/icons/bestsellers.jpg",
+      },
+    ],
+  },
+  {
+    label: "Icons",
+    value: "icons" as const,
+    featured: [
+      {
+        name: "Favorite Icons picks",
+        href: "#",
+        imageSrc: "/nav/icons/picks.jpg",
+      },
+      {
+        name: "New Arrivals",
+        href: "#",
+        imageSrc: "/nav/icons/new.jpg",
+      },
+      {
+        name: "Best Selling Icons",
+        href: "#",
+        imageSrc: "/nav/icons/bestsellers.jpg",
+      },
+    ],
+  },
 ];
