@@ -1,6 +1,6 @@
 # Pixel Craft Hub
 
-Pixel Craft Hub is an online digital asset trade marketplace.
+Pixel Craft Hub is an online digital asset trade marketplace. Followed this [Tutorial by Josh](https://www.youtube.com/watch?v=06g6YJ6JCJU&t=1055s) while doing this project and added some modifications.
 
 ## Features
 
